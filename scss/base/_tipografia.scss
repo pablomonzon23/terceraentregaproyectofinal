@@ -1,0 +1,55 @@
+h1{
+    font-size: 5rem;
+    font-family: 'Ephesis', cursive;
+}
+h2{ 
+   font-size: 3rem;
+   color: blue;
+    font-family: 'Dosis', sans-serif;;
+}
+h3{
+    font-size: 3rem;
+    color: blueviolet;
+}
+h5{
+    color: white;
+}
+p{
+    font-size: 30px;
+    color: black;
+}
+.nosotros ul li{
+    color: rgb(2, 7, 7);
+    font-size: 20px;
+    font-style: oblique;
+}
+.nav li a{
+    font-size: 20px;
+    color: black;
+    
+}
+.texto-portada p{
+    
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+.formulario-consulta{
+    font-size: 20px;
+    text-align: left;
+    color: blue;
+}
+
+$colorpprincipal: blue;
+$colorpsecundario: black;
+
+.texto-portada p{
+    color: $colorpprincipal;
+}
+p{
+   color: $colorpsecundario;
+}
+.footer li{
+    color: white;
+}

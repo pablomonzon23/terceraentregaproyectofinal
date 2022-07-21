@@ -1,0 +1,39 @@
+main{
+    background: coral;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 30px;
+}
+.caja-bienvenida{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+align-items: flex-start;
+}
+.texto-portada{ 
+    display: flex;
+    text-align: center;
+   padding: 60px;
+}
+
+.tarjeta-portada{
+    
+display: flex;
+flex-direction: row;  
+margin-top: 40px;
+text-align: center; 
+justify-content: center; 
+}
+
+
+
+
+.carrousel{
+    border: solid blue 20px;
+    padding: 20px;
+}
+
+
+

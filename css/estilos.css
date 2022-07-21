@@ -1,0 +1,313 @@
+h1 {
+  font-size: 5rem;
+  font-family: "Ephesis", cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  color: blue;
+  font-family: "Dosis", sans-serif;
+}
+
+h3 {
+  font-size: 3rem;
+  color: blueviolet;
+}
+
+h5 {
+  color: white;
+}
+
+p {
+  font-size: 30px;
+  color: black;
+}
+
+.nosotros ul li {
+  color: rgb(2, 7, 7);
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.nav li a {
+  font-size: 20px;
+  color: black;
+}
+
+.texto-portada p {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.formulario-consulta {
+  font-size: 20px;
+  text-align: left;
+  color: blue;
+}
+
+.texto-portada p {
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+.footer li {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  background: grey;
+}
+.encabezadotitulo {
+  margin-left: 60px;
+}
+.encabezado .nav {
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+main {
+  background: coral;
+  width: 100vw;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.caja-bienvenida {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.texto-portada {
+  display: flex;
+  text-align: center;
+  padding: 60px;
+}
+
+.tarjeta-portada {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.carrousel {
+  border: solid blue 20px;
+  padding: 20px;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 200px;
+  grid-template-areas: "texto logo" "texto logo" "pago pago" "entrega entrega";
+}
+
+.nosotros {
+  grid-area: texto;
+  width: 100%;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.logo {
+  grid-area: logo;
+}
+.logo img {
+  width: 400px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 30px;
+  box-shadow: 10px -12px 5px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -12px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -12px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: black 40px;
+}
+
+.pago {
+  margin-top: 400px;
+  grid-area: pago;
+  text-align: center;
+  padding: 30px;
+}
+
+.entrega {
+  grid-area: entrega;
+  text-align: center;
+  padding: 30px;
+}
+
+.caja-vestidos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px;
+  grid-template-areas: "texto texto foto" "texto texto foto1" "texto texto foto2";
+}
+
+.contenedor-texto {
+  grid-area: texto;
+  text-align: center;
+  width: 80%;
+}
+
+.contenedor-quince {
+  grid-area: foto;
+  width: 300px;
+  height: 300px;
+}
+.contenedor-quince img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-left: 30px;
+  border: solid 10px;
+}
+
+.contenedor-bodas {
+  grid-area: foto1;
+  width: 300px;
+  height: 300px;
+  transform: rotate(10deg);
+}
+.contenedor-bodas img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: solid black 10px;
+}
+
+.contenedor-recepcion {
+  width: 300px;
+  height: 300px;
+  grid-area: foto2;
+}
+.contenedor-recepcion img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-left: 10px;
+  border: solid 10px black;
+}
+
+.footer {
+  background: grey;
+}
+
+.bg-footer {
+  background: grey;
+  padding: 50px 0 30px;
+}
+
+.footer-heading {
+  letter-spacing: 2px;
+}
+
+.footer-link a {
+  color: white;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.footer-link a:hover {
+  color: #1bbc9b;
+}
+
+.footer-alt {
+  color: #acacac;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-heading:after {
+  content: "";
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #1bbc9b;
+}
+
+.galeria {
+  text-align: center;
+}
+.galeria img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  border: solid black 10px;
+}
+.galeria img:hover {
+  transform: scale(1.2);
+}
+
+.formulario-consulta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  grid-auto-rows: auto;
+  align-items: start;
+  grid-template-areas: "personales consulta" "personales consulta";
+  align-items: flex-start;
+  text-align: center;
+}
+
+.datos-personales {
+  grid-area: "personales";
+  width: 100%;
+  height: 80%;
+}
+
+.texto-consultas {
+  grid-area: consulta;
+  width: 100%;
+  height: 100%;
+}
+
+.tarjeta-portada {
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.card {
+  background: black;
+  box-shadow: 11px -7px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px -7px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px -7px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 600px) {
+  main {
+    background: white;
+    width: 100vw;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

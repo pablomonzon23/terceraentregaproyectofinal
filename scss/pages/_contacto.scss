@@ -1,0 +1,25 @@
+
+.formulario-consulta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        grid-auto-rows: auto;
+        align-items: start;
+   grid-template-areas:
+    "personales consulta"
+   "personales consulta";
+    align-items: flex-start;
+    text-align: center;
+}
+.datos-personales{
+    grid-area: "personales";
+    width: 100%;
+    height: 80%;
+
+}
+.texto-consultas{
+    grid-area: consulta;
+    width: 100%;
+    height: 100%;
+    
+}

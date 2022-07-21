@@ -1,0 +1,55 @@
+.caja-vestidos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+grid-template-areas: "texto texto foto"
+"texto texto foto1" 
+"texto texto foto2";
+}
+.contenedor-texto{
+    
+    grid-area: texto;
+    text-align: center;
+    width: 80%;
+
+    
+}
+
+.contenedor-quince{
+    grid-area: foto;
+    width: 300px;
+    height: 300px;
+    img{
+    width: 100%;
+    height: 100%;
+  object-fit: contain;
+  margin-left: 30px;
+  border: solid 10px;
+   }
+   }
+   .contenedor-bodas{
+    grid-area: foto1;
+    width: 300px;
+    height: 300px;
+    transform: rotate( 10deg );
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: solid black 10px;
+    
+}
+}
+.contenedor-recepcion{
+    width: 300px;
+    height: 300px;
+    grid-area: foto2;
+    
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 10px;
+    border: solid 10px black;
+}
+}
